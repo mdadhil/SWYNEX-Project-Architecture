@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+
+# Dependencies and generated builds
+node_modules/
+dist/
+
+# User uploads and local data (commit only sanitized sample assets if needed)
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Local/editor files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
